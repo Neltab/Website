@@ -1,8 +1,8 @@
 ---
 title: LS2N
 seo_title: LS2N
-summary: 6 months internship at LS2N, Nantes' University computer science research laboratory. Wrote a paper on learning from small datasets.
-description: 
+summary:
+description: 6 months internship at LS2N, Nantes' University computer science research laboratory. Wrote a paper on learning from small datasets.
 slug: LS2N
 author: Aurélien Boissière
 

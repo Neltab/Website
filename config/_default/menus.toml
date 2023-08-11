@@ -29,7 +29,7 @@
 [[main]]
     identifier = "resume"
     name = "Resume"
-    url = "/resume/"
+    url = "/resume.html"
 #    parent = "work"
     weight = 3
 
@@ -55,12 +55,12 @@
 #    parent = "writing"
 #    weight = 5
 
-[[main]]
-    # Top-level menu entry
-    identifier = "explore"
-    name = "Explore"
-    url = "/categories/"
-    weight = 6
+#[[main]]
+#    # Top-level menu entry
+#    identifier = "explore"
+#    name = "Explore"
+#    url = "/categories/"
+#    weight = 6
 
 #[[main]]
 #    identifier = "categories"
@@ -83,9 +83,9 @@
 #    parent = "explore"
 #    weight = 8
 
-[[main]]
-    identifier = "project-type"
-    name = "Project Types"
-    url = "/project-types/"
-    parent = "explore"
-    weight = 9
+#[[main]]
+#    identifier = "project-type"
+#    name = "Project Types"
+#    url = "/project-types/"
+#    parent = "explore"
+#    weight = 9

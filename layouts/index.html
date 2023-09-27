@@ -28,11 +28,13 @@
                 <a class="btn-secondary" href="{{ "projects/" | relURL }}">Projects</a>
             </div> -->
         </div>
+        {{ if eq .Site.Params.home_hero_socials true }}
+          {{ partial "general/social-links.html" . }}
+        {{ end }}
     </section>
     <section class="section">
-    {{ if eq .Site.Params.home_hero_socials true }}
-        {{ partial "general/social-links.html" . }}
-    {{ end }}
+      <h1>My skills</h1>
+      {{ partial "general/skills.html" . }}
     </section>
   <!-- <section class="section">
     <div class="home-title-dropdown">

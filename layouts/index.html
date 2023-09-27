@@ -19,22 +19,21 @@
                 alt="Headshot or avatar belonging to the website owner"/>
         </div>
         <div class="hero-info">
-            <h1 class="hero-title">{{ .Title }}</h1>
+            <h1 class="hero-title">Hi. I'm <span class="text-teal-500 font-bold">Aurélien</span></h1>
             {{ with .Params.subtitle }}
-                <p class="hero-subtitle">{{.}}</p>
+                <p class="hero-subtitle">A junior <span class="text-teal-500 font-bold"> FullStack Developer </span> </p>
             {{ end }}
             <!-- <div class="btn-group">
                 <a class="btn-primary" href="{{ "about/" | relURL }}">About</a>
                 <a class="btn-secondary" href="{{ "projects/" | relURL }}">Projects</a>
             </div> -->
         </div>
-        {{ if eq .Site.Params.home_hero_socials true }}
-          {{ partial "general/social-links.html" . }}
-        {{ end }}
     </section>
     <section class="section">
-      <h1>My skills</h1>
-      {{ partial "general/skills.html" . }}
+      <h1 class="text-5xl">My stack</h1>
+      <div class="hero pt-10">
+        {{ partial "general/stack.html" . }}
+      </div>
     </section>
   <!-- <section class="section">
     <div class="home-title-dropdown">
@@ -67,13 +66,7 @@
     <a class="btn-secondary see-more" href="{{ "posts/" | relURL }}">More Posts</a>
   </section> -->
   <section class="section">
-    <h2 class="home-section-title">
-      {{- with .Params.projects_section_heading -}}
-        {{- . -}}
-      {{- else -}}
-        My Projects
-      {{- end -}}
-    </h2>
+    <h1 class="text-5xl pb-10">My projects</h1>
     {{ $projects := where site.RegularPages "Section" "projects" | first 20 }}
     {{ with $projects }}
       <div class="project-list">
@@ -83,6 +76,12 @@
       </div>
     {{ else }}
       {{ partial "general/fallback-text.html" . }}
+    {{ end }}
+  </section>
+  <section class="section">
+    <h1>Let's get in touch</h1>
+    {{ if eq .Site.Params.home_hero_socials true }}
+        {{ partial "general/social-links.html" . }}
     {{ end }}
   </section>
 </div>

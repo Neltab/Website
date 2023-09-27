@@ -33,14 +33,14 @@
   }
   
   [data-theme="dark"] {
-    --color-primary: rgb(255, 192, 133);
-    --color-inline-code: hsl(0, 81%, 70%);
+    --color-primary: rgb(255, 255, 255);
+    --color-inline-code: hsl(213, 13%, 80%);
     
     /* color contrasts */
-    --color-bg: rgb(27, 42, 64);
-    --color-contrast-lower: hsl(216, 41%, 18%);
-    --color-contrast-low: hsl(216, 41%, 18%);
-    --color-contrast-medium-low: hsl(216, 41%, 18%);
+    --color-bg: rgb(18, 24, 27);
+    --color-contrast-lower: hsl(0, 0%, 20%);
+    --color-contrast-low: hsl(20, 0%, 20%);
+    --color-contrast-medium-low: hsl(0, 0%, 20%);
     --color-contrast-medium: hsl(0, 0%, 84%);
     --color-contrast-medium-high: hsl(0, 0%, 84%);
     --color-contrast-high: hsl(0, 0%, 84%);

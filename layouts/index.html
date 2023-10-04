@@ -21,7 +21,13 @@
         <div class="hero-info">
             <h1 class="hero-title">Hi. I'm <span class="text-teal-500 font-bold">Aurélien</span></h1>
             {{ with .Params.subtitle }}
-                <p class="hero-subtitle">A junior <span class="text-teal-500 font-bold"> FullStack Developer </span> </p>
+                <p class="hero-subtitle">
+                    A junior <span class="text-teal-500 font-bold"> FullStack Developer </span>
+                    who likes <span class="text-indigo-500 font-bold"> Astronomy</span>,
+                    <span class="text-orange-500 font-bold"> Foxes</span> 🦊,
+                    building games with friends during <span class="text-rose-500 font-bold"> Game Jams </span>
+                    and is interested in <span class="text-sky-500 font-bold"> Deep Learning</span>.
+                </p>
             {{ end }}
             <!-- <div class="btn-group">
                 <a class="btn-primary" href="{{ "about/" | relURL }}">About</a>
@@ -79,7 +85,7 @@
     {{ end }}
   </section>
   <section class="section">
-    <h1>Let's get in touch</h1>
+    <h1 class="text-5xl pb-10">Let's get in touch</h1>
     {{ if eq .Site.Params.home_hero_socials true }}
         {{ partial "general/social-links.html" . }}
     {{ end }}

@@ -16,7 +16,7 @@ feature_image: bdd.png
 feature_image_alt: Logo of the project, an egg and some vegetables on a green background
 
 project types: 
-    - School
+    - Fullstack
 
 techstack:
     - Dart

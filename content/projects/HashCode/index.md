@@ -16,7 +16,7 @@ feature_image: hashcode.webp
 feature_image_alt: Google hashcode logo
 
 project types: 
-    - School
+    - Software
 
 techstack:
     - Python

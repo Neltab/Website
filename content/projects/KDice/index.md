@@ -16,7 +16,7 @@ feature_image: kdice.jpg
 feature_image_alt: Screenshot of a game of KDice
 
 project types:
-    - School
+    - Software
 
 techstack:
     - C++

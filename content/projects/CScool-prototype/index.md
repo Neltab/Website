@@ -16,7 +16,7 @@ feature_image: cscool.png
 feature_image_alt: 3D scene of buildings and roads
 
 project types: 
-    - Internship
+    - Fullstack
 techstack:
     - HTML/CSS
     - JavaScript

@@ -16,7 +16,7 @@ feature_image: LS2N.svg
 feature_image_alt: 
 
 project types:
-    - Internship
+    - Research
 
 techstack:
     - Python

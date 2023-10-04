@@ -16,7 +16,7 @@ feature_image: Raspberry.png
 feature_image_alt: 
 
 project types: 
-    - Personal
+    - FullStack
 
 techstack:
     - Hugo

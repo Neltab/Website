@@ -16,7 +16,7 @@ feature_image: hyblab.jpeg
 feature_image_alt: 
 
 project types:
-    - School
+    - Fullstack
 
 techstack:
     - HTML / CSS

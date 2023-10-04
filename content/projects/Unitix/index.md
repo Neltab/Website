@@ -16,13 +16,14 @@ feature_image: unitix.jpg
 feature_image_alt: Old Unitix logo
 
 project types: 
-    - Internship
+    - FullStack
 
 techstack: 
     - HTML / CSS
     - TypeScript
     - React
     - Jenkins
+    - Java
 live_url: https://www.unitix.io/
 source_url: 
 

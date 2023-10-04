@@ -16,7 +16,7 @@ feature_image: dodobius.jpg
 feature_image_alt: 
 
 project types: 
-    - Personal
+    - Software
 
 techstack:
     - Godot

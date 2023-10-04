@@ -16,7 +16,7 @@ feature_image: speed.png
 feature_image_alt: Logo of S.P.E.E.D, Submersive Prototype of Experimentation on Elementary Dynamics
 
 project types:
-    - Personal
+    - Software
 
 techstack:
     - Unity

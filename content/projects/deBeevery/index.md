@@ -16,7 +16,7 @@ feature_image: debeevery.jpg
 feature_image_alt: Dbeevery logo - Isometric view of a bee
 
 project types:
-    - Personal
+    - Software
 
 techstack:
     - Unity

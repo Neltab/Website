@@ -14,7 +14,7 @@
     {{ $bundle := slice $script $custom | resources.Concat "main.js" }}
     {{ $script = $bundle }}
   {{ else }}
-    <script src="{{ $custom.Permalink }}"></script>
+    <script src="{{ $custom.Permalink | relURL }}"></script>
   {{ end }}
 {{ end }}
 
@@ -26,7 +26,7 @@
 {{ else }}
   {{ $final = $script }}
 {{ end }}
-<script src="{{ $final.Permalink }}"></script>
+<script src="{{ $final.Permalink | relURL }}"></script>
 
 <!-- Add Google Analytics v4 tag if not using GTM -->
 {{ if and (not .Site.IsServer) (not .Site.Params.gtm_id) }}

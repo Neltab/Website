@@ -27,8 +27,8 @@
   {{/*  Only minify in production to allow source maps  */}}
   {{ $final = $final | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $final.Permalink }}" />
+<link rel="stylesheet" href="{{ $final.Permalink | relURL }}" />
 {{/*  Custom goes last to preserve cascade in development  */}}
 {{ if $custom_no_bundle }}
-<link rel="stylesheet" href="{{ $custom.Permalink }}" />
+<link rel="stylesheet" href="{{ $custom.Permalink | relURL }}" />
 {{ end }}

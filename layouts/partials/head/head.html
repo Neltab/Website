@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {{ $style := resources.Get "style.css" }}    
+    {{ $style := resources.Get "styles.css" }}    
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ partial "head/resource-hints.html" . }}
     {{ partial "head/styles.html" . }}

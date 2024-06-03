@@ -28,7 +28,8 @@ paginate = 10 # Default
 paginatePath = 'page' # Default
 pluralizeListTitles = true # Default
 publishDir = 'public' # Default
-relativeURLs = false # Default
+relativeURLs = true # Default
+canonifyURLs = false # Default
 summaryLength = 70 # Default
 titleCaseStyle = 'AP' # Default, other options: Chicago (slightly different) or Go (all first letters capitalized)
 
